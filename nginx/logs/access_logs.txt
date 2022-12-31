@@ -1,0 +1,29 @@
+
+    http {
+        ...
+        ...
+        error_log  /var/log/nginx/error_log;
+        
+        server {
+                    listen 80;
+                    server_name domain1.com;
+                        error_log  /var/log/nginx/domain1.error_log  warn;
+                            ...
+        }
+        server {
+                    listen 80;
+                    server_name domain2.com;
+                        error_log  /var/log/nginx/domain2.error_log  debug;
+                            ...
+        }
+    }
+
+
+    error_log /var/log/nginx/domain.error.log debug;
+    error_log /var/log/nginx/domain.error.log.info info;
+    error_log /var/log/nginx/domain.error.log.crit crit;
+    error_log /var/log/nginx/domain.error.log.warn warn;
+    error_log /var/log/nginx/domain.error.log.error error;
+    error_log /var/log/nginx/domain.error.log.alert alert;
+    error_log /var/log/nginx/domain.error.log.notice notice;
+    error_log /var/log/nginx/domain.error.log.emerg emerg;

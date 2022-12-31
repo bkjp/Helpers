@@ -1,0 +1,41 @@
+ERROR WHEN RUNNING CONTAINER AND IMAGES
+
+1. psycopg2
+
+DEPRECATION: psycopg2 is being installed using the legacy 'setup.py install' method,
+because it does not have a 'pyproject.toml' and the 'wheel' package is not
+installed. pip 23.1 will enforce this behaviour change. A possible replacement
+is to enable the '--use-pep517' option. Discussion can be found at
+https://github.com/pypa/pip/issues/8559
+
+2.
+WARNING: Ignoring https://dl-cdn.alpinelinux.org/alpine/v3.13/main: No such file or directory
+WARNING: Ignoring https://dl-cdn.alpinelinux.org/alpine/v3.13/community: No such file or directory
+
+3.
+npm notice
+npm notice New major version of npm available! 8.19.2 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice
+
+4.
+Warning: For production Image Optimization with Next.js, the optional
+'sharp' package is strongly recommended. Run 'yarn add sharp', and Next.js
+will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+
+5.
+warn  - Restarted collecting page data for /_app because it took more than 60 seconds
+warn  - See more info here https://nextjs.org/docs/messages/static-page-generation-timeout
+warn  - Restarted collecting page data for /_app because it took more than 60 seconds
+
+6.
+npm notice 
+npm notice New major version of npm available! 8.19.2 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+
+
+

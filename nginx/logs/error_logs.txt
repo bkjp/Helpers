@@ -1,0 +1,18 @@
+http {
+      ...
+      ...
+      # Enable access logs
+      access_log  /var/log/nginx/access.log;
+
+         server {
+                  listen 80;
+                  server_name domain1.com
+                  access_log  /var/log/nginx/domain1.access.log;
+                  ...
+                  ...
+                }
+}
+
+# Check access logs
+
+  $ sudo tail -f /var/log/nginx/domain1.access.log
